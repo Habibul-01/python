@@ -2,7 +2,7 @@ import math
 a=int(input('Enter value 0f a: '))
 b=int(input('Enter value of b: '))
 c=int(input('Enter value of c: '))
-msg=f"Equation is:({a}x2)+({b}x)+({c})"
+msg=f"Equation is:({a}x\u00b2)+({b}x)+({c})" #superscript the x²
 print(msg)
 d=(b*b)-(4*a*c)
 sq=math.sqrt(abs(d))
